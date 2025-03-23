@@ -56,15 +56,17 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-4 space-x-reverse">
-          <img
-            src="/logo.svg"
-            alt="ثمار صنوان"
-            className="h-8 md:h-10"
-            loading="lazy"
-          />
-          <h1 className="font-bold text-[var(--color-text-primary)] text-sm md:text-base">
-            ثمار صنوان
-          </h1>
+          <a href="#">
+            <img
+              src="/logo.svg"
+              alt="اوتليت"
+              className="h-8 md:h-10"
+              loading="lazy"
+            />
+          </a>
+          {/* <h1 className="font-bold text-[var(--color-text-primary)] text-sm md:text-base">
+          اوتليت
+          </h1> */}
         </div>
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 space-x-reverse text-[var(--color-text-primary)] justify-between w-80">
