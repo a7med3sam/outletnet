@@ -11,7 +11,7 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0 bg-white opacity-45 md:opacity-30"></div>
       <div className="container mx-auto px-4 py-8 md:py-16 flex flex-col items-center text-[var(--color-text-primary)] text-center relative z-10">
-        <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6">
+        <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6 mx-10">
           كل ما تحتاجه بين يديك بضغطة زر!
         </h1>
         <p className="text-base mt-8 md:text-lg font-medium mb-6 md:mb-8 max-w-3xl px-12">
