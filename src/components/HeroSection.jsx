@@ -4,14 +4,17 @@ const HeroSection = () => {
   return (
     <section
       className="relative bg-cover pt-16 md:pt-24 pb-8 md:pb-56 min-h-[60vh] md:min-h-[80vh] flex items-center"
-      style={{ backgroundImage: "url('/hero-bg.png')" }}
+      style={{ backgroundImage: "url('/hero-bg.png')",
+        backgroundSize: '135%',
+        backgroundPosition: 'center',  
+      }}
     >
-      <div className="absolute inset-0 bg-white opacity-35 md:opacity-20"></div>
+      <div className="absolute inset-0 bg-white opacity-45 md:opacity-30"></div>
       <div className="container mx-auto px-4 py-8 md:py-16 flex flex-col items-center text-[var(--color-text-primary)] text-center relative z-10">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6">
           كل ما تحتاجه بين يديك بضغطة زر!
         </h1>
-        <p className="text-base mt-8 md:text-lg font-medium mb-6 md:mb-8 max-w-3xl px-2">
+        <p className="text-base mt-8 md:text-lg font-medium mb-6 md:mb-8 max-w-3xl px-12">
           اوتليت يوفّر لك تجربة تسوّق سهلة وسريعة مع توصيل فوري وعروض حصرية
           يومية. حمّل التطبيق الآن واستمتع بأفضل المنتجات من راحة منزلك!
         </p>
