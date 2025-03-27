@@ -5,12 +5,12 @@
 @theme {
   --font-display: "Noto Kufi Arabic", sans-serif;
 
-  --color-nav: #0e92c280;
-  --color-text-primary: #263238;
-  --color-button-bg: #0D93C2;
+--color-nav: #9b6ec280; /* درجة بنفسيجية فاتحة مع الشفافية */
+--color-text-primary: #263238;
+  --color-button-bg: #A15EDB;
   --color-q-dev: #AABFEF;
-  --color-footer-bg: #1F354D;
-  --color-footer-text: #cbe6ff;
+--color-footer-bg: #4B2A56; /* درجة بنفسيجية داكنة */
+--color-footer-text: #eedeff; /* درجة بنفسيجية فاتحة */
   
   
   /* ... */

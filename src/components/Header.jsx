@@ -59,13 +59,13 @@ const Header = () => {
           <a href="#">
             <img
               src="/logo.svg"
-              alt="اوتليت"
+              alt="اوتليت ووم"
               className="h-8 md:h-10"
               loading="lazy"
             />
           </a>
           {/* <h1 className="font-bold text-[var(--color-text-primary)] text-sm md:text-base">
-          اوتليت
+          اوتليت ووم
           </h1> */}
         </div>
         {/* Desktop Navigation */}
@@ -113,7 +113,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <button className="bg-[var(--color-button-bg)] text-white px-3 py-1 md:px-4 md:py-2 rounded-xl text-sm md:text-base hover:bg-blue-400 transition">
+        <button className="bg-[var(--color-button-bg)] text-white px-3 py-1 md:px-4 md:py-2 rounded-xl text-sm md:text-base hover:bg-purple-800 transition">
           <a href="#footer">ابدأ التسوق</a>
         </button>
       </div>
@@ -125,17 +125,17 @@ const Header = () => {
         }`}
       >
         <div className="container mx-auto px-4 py-2">
-          <nav className="flex flex-col space-y-3 text-green-700 text-right">
+          <nav className="flex flex-col space-y-3 text-purple-700 text-right">
             <a href="#" className="p-4 border-b border-gray-200 font-medium">
               الرئيسية
             </a>
             <a
               href="#whySenwan"
-              className="p-4 border-b border-gray-200 hover:text-green-700"
+              className="p-4 border-b border-gray-200 hover:text-purple-700"
             >
               عن التطبيق
             </a>
-            <a href="#faqs" className="p-4 hover:text-green-700">
+            <a href="#faqs" className="p-4 hover:text-purple-700">
               الأسئلة الشائعة
             </a>
           </nav>

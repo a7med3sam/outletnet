@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-4">
           <div className="mb-6 mr-10 md:mb-0 text-center md:text-right">
-            <h2 className="font-normal mb-3 text-3xl tracking-wide">اوتليت</h2>
+            <h2 className="font-normal mb-3 text-3xl tracking-wide">اوتليت ووم</h2>
             <ul className="list-inside font-light text-base md:list-disc">
               <li className="mb-1">سياسة الخصوصية</li>
               {/* <li>سياسة الاستبدال و الاسترجاع</li> */}

@@ -5,7 +5,7 @@ const MainSection = () => {
         <div className="container mx-auto px-10 md:px-20">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-16">
             <span className="text-black">لماذا </span>
-            <span className="text-[var(--color-button-bg)]">اوتليت</span>
+            <span className="text-[var(--color-button-bg)]">اوتليت ووم</span>
             <span className="text-black">؟</span>
           </h2>
 
@@ -93,7 +93,7 @@ const MainSection = () => {
             <div className="relative w-full mt-0 md:w-1/3 text-center md:text-right md:mt-16 lg:mt-0 order-2 md:order-1">
               <img
                 src="/Mobiles.svg"
-                alt="اوتليت"
+                alt="اوتليت ووم"
                 className="w-4/9 mx-auto md:w-full max-w-md scale-125"
                 loading="lazy"
               />
